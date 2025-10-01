@@ -6,9 +6,18 @@ Inception mean: 5.016438876697714, Inception Var: 0.394761605985015, FID: 136.76
 Inception mean: 4.796296922608915, Inception Var: 0.19807857521089212, FID: 112.87886903983076, model: shuffle_residual
 Inception mean: 4.8224682638732315, Inception Var: 0.34573773209899306, FID: 122.96914638831043, model: resnet
 
+## 512 resolution ;  highcap epoch 27 ; pixelation
+Inception mean: 5.028674835000903, Inception Var: 0.34160139872908046, FID: 158.68599644942893, model: interpolation
+Inception mean: 4.67465480442217, Inception Var: 0.2322326208376177, FID: 122.5325266710147, model: shuffle_residual
+
+
+
+
+
 
 ## 512 resolution ;  highcap epoch 9 ; pixelation
 
+Inception mean: 5.028674835000903, Inception Var: 0.34160139872908046, FID: 158.68599644942893, model: interpolation
 Inception mean: 4.67465480442217, Inception Var: 0.2322326208376177, FID: 123.17435745040518, model: shuffle_residual
 Inception mean: 4.5228361990944235, Inception Var: 0.3381339389468977, FID: 127.66389181787775, model: highcap
 Inception mean: 4.78256275546727, Inception Var: 0.17003941743956655, FID: 134.14622834347745, model: resnet
@@ -16,24 +25,40 @@ Inception mean: 5.03409115270625, Inception Var: 0.3302593306602759, FID: 142.22
 
 
 
-## 512 resolution ;  highcap epoch 27 ; pixelation
-
-
-## 256 resolution ;  highcap epoch 27 ; pixelation
-
-Inception mean: 4.190009603489038, Inception Var: 0.2714101005902699, FID: 155.23244480966002, model: interpolation
-Inception mean: 4.005533124679635, Inception Var: 0.22409051447802467, FID: 140.9193217210091, model: shuffle_residual
-Inception mean: 3.71459097967279, Inception Var: 0.15925387987303, FID: 130.36550326417188, model: highcap
-
-
-
-
 
 ## 256 resolution ;  highcap epoch 9 ; pixelation
 
+Inception mean: 4.190009603489038, Inception Var: 0.2714101005902699, FID: 155.23244480966002, model: interpolation
 Inception mean: 4.005533124679635, Inception Var: 0.22409051447802467, FID: 140.9193217210091, model: shuffle_residual
 Inception mean: 3.6854309986668112, Inception Var: 0.158854470857249, FID: 130.33697014678995, model: highcap
 Inception mean: 4.3723235132546145, Inception Var: 0.16623540614899998, FID: 140.29322619373272, model: resnet
 Inception mean: 4.1591868452376906, Inception Var: 0.2881490557670242, FID: 140.13696165192346, model: pixelart_unet
+
+
+## 512 resolution ;  highcap epoch 9 ; pixelation
+
+Inception mean: 5.028674835000903, Inception Var: 0.34160139872908046, FID: 158.68599644942893, model: interpolation
+Inception mean: 4.861717510920369, Inception Var: 0.29318672058584827, FID: 129.17196387430272, model: resnet
+Inception mean: 4.917246951977669, Inception Var: 0.3254871613465587, FID: 145.96101376242206, model: pixelart_unet
+Inception mean: 4.803264585798442, Inception Var: 0.2757350023615868, FID: 137.9883954801111, model: highcap
+Inception mean: 4.998510312726789, Inception Var: 0.24724385157574605, FID: 116.19183112547216, model: shuffle_residual
+
+
+
+
+
+## 256 resolution ;  highcap epoch 9,27 ; pixelation
+
+Inception mean: 4.190009603489038, Inception Var: 0.2714101005902699, FID: 155.23244480966002, model: interpolation
+Inception mean: 4.8201599656002365, Inception Var: 0.1699639479463689, FID: 136.86530063770664, model: resnet
+Inception mean: 4.016166342831838, Inception Var: 0.2904620228728442, FID: 143.30652253622154, model: pixelart_unet
+Inception mean: 3.801193750874458, Inception Var: 0.26201652943741, FID: 142.09584524605577, model: highcap , epoch 9
+Inception mean: 3.9572978314313616, Inception Var: 0.25296477131024947, FID: 145.25289658036303, model: highcap , epoch 27
+Inception mean: 4.5176360519624685, Inception Var: 0.21374350026159009, FID: 129.11841594682744, model: shuffle_residual
+
+
+
+
+
 
 
